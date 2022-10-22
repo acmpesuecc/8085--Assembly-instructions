@@ -1,0 +1,61 @@
+8B00
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Courier New;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\li195\cf1\f0\fs20 LDA 8500
+\par MOV B A
+\par LDA 8501
+\par ADD B
+\par STA 8502
+\par MVI A 00
+\par ADC A
+\par STA 8503
+\par HLT
+\par MVI B 03h
+\par MVI A 00h
+\par MOV D B
+\par DCR D
+\par 
+\par MOV B A
+\par STA 0002h
+\par HLT
+\par 
+\par 
+\par 
+\par \cf0 
+\par }
+<End Codes>
+20
+<End UserData>
+40
+1| 8B00| 3A
+2| 8B01| 00
+3| 8B02| 85
+4| 8B03| 47
+5| 8B04| 3A
+6| 8B05| 01
+7| 8B06| 85
+8| 8B07| 80
+9| 8B08| 32
+10| 8B09| 02
+11| 8B0A| 85
+12| 8B0B| 3E
+13| 8B0C| 00
+14| 8B0D| 8F
+15| 8B0E| 32
+16| 8B0F| 03
+17| 8B10| 85
+18| 8B11| 76
+19| 8B12| 06
+20| 8B13| 03
+21| 8B14| 3E
+22| 8B15| 00
+23| 8B16| 50
+24| 8B17| 15
+25| 8B18| 47
+26| 8B19| 32
+27| 8B1A| 02
+28| 8B1B| 00
+29| 8B1C| 76
+<End HexData>
+
+<End Comment>
